@@ -1,0 +1,271 @@
+/*css*/
+/*apply for global*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.align-center {
+  text-align: center;
+}
+.align-center-margin {
+  margin: 0 auto 0 auto;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+
+/*start of top-container section*/
+
+.white-bg-color {
+  height: 35rem;
+}
+
+.container-fluid {
+  padding: 0.5rem 2rem;
+}
+
+.leckerli-font {
+  font-family: "Leckerli One", cursive;
+}
+.btn-own-style {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c36a2d;
+  border-color: #c36a2d;
+  margin-top: 1rem;
+}
+
+.btn-own-style:hover {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c36a2d;
+  border-color: #c36a2d;
+  margin-top: 1rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://global-uploads.webflow.com/5eb831c079f88684c846d7b0/5ebc23e9f58866498610ce2c_arrow.png");
+}
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.montserrat-font-in-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6rem;
+  color: #c36a2d;
+  margin: 0;
+  font-weight: 800;
+}
+.montserrat-font-in-h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #c36a2d;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.montserrat-font-in-h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #c36a2d;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.montserrat-font-in-p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c36a2d;
+  margin: 0;
+}
+
+.navbar-brand {
+  color: #c36a2d;
+}
+
+.nav-link {
+  color: #c08c6a;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #572503;
+  border-radius: 10%;
+  background-color: #e2c275;
+}
+
+.navbar-brand:hover {
+  color: #572503;
+}
+
+.bg-color-2 {
+  background-color: #e2c275;
+  height: 7.5rem;
+}
+
+.btn-own-style:hover {
+  color: white;
+  background-color: #572503;
+}
+
+/*second container-/hobbies/traits*/
+.who-container {
+  background-color: #c36a2d;
+}
+
+.box-traits {
+  margin: 6%;
+  padding: 10%;
+}
+
+.box-traits:hover {
+  border: 2px solid black;
+  background-color: wheat;
+  border-radius: 10%;
+  margin: 0;
+}
+
+.p-box {
+  color: black;
+  font-weight: 500;
+}
+.img-box {
+  width: 30%;
+  margin-bottom: 10%;
+}
+
+.box-hobbies {
+  margin: 6%;
+  padding: 10%;
+}
+.box-hobbies:hover {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10%;
+  margin: 0;
+}
+
+/*third container--*/
+
+.carousel-control-next-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/892/892528.png");
+}
+.carousel-control-prev-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/892/892512.png");
+}
+
+.montserrat-font-in-a-link {
+  border: 2px solid #572503;
+  background-color: #e2c275;
+  color: white;
+  padding: 2%;
+  border-radius: 9%;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c36a2d;
+  border: 1px solid #572503;
+  padding: 2%;
+  border-radius: 10%;
+  margin: 0;
+  text-decoration: none;
+}
+
+/*timeline container*/
+
+.img-timeline {
+  width: 170px;
+  border: 5px solid #572503;
+  border-radius: 50%;
+}
+
+.img-timeline:hover {
+  opacity: 0.9;
+  border: 10px solid white;
+}
+
+.img-timeline:hover + .text-center-absolute {
+  display: block;
+}
+
+.montserrat-font-in-a-link:hover {
+  border: 2px solid #572503;
+  background-color: #e2c275;
+  color: white;
+  padding: 2%;
+  border-radius: 9%;
+}
+
+.text-center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+/*contact levi*/
+.btn-own-style-contact-levi {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #572503;
+  border-color: #572503;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.btn-own-style-contact-levi:hover {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #572503;
+  border-color: #572503;
+  margin-top: 1rem;
+}
+
+/*logo*/
+.logo {
+  width: 5%;
+  display: inline-block;
+  margin: 0 5% 0 5%;
+}
+
+/* soc med logo*/
+.socmed-logo {
+  width: 3%;
+  display: inline-block;
+  margin: 10% 5% 0% 5%;
+}
+
+/*media queries*/
+@media screen and (max-width: 1063px) {
+  .montserrat-font-in-h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .white-bg-color {
+    height: 65rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .levi-image-responsive {
+    margin-top: 7.3rem;
+    width: 10rem;
+  }
+}
